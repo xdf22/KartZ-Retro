@@ -163,9 +163,9 @@ extern FILE *logstream;
 // Name of local directory for config files and savegames
 #if !defined(_arch_dreamcast) && !defined(_WIN32_WCE) && !defined(GP2X)
 #if ((defined (__unix__) || defined (UNIXCOMMON)) && !defined (__CYGWIN__)) && !defined (__APPLE__)
-#define DEFAULTDIR ".srb2"
+#define DEFAULTDIR ".srb2_kartz"
 #else
-#define DEFAULTDIR "srb2"
+#define DEFAULTDIR "srb2_kartz"
 #endif
 #endif
 

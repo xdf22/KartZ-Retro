@@ -2643,9 +2643,9 @@ static const char *locateWad(void)
 	const char *envstr;
 	const char *WadPath;
 
-	I_OutputMsg("SRB2WADDIR");
-	// does SRB2WADDIR exist?
-	if (((envstr = I_GetEnv("SRB2WADDIR")) != NULL) && isWadPathOk(envstr))
+	I_OutputMsg("KARTZWADDIR");
+	// does KARTZWADDIR exist?
+	if (((envstr = I_GetEnv("KARTZWADDIR")) != NULL) && isWadPathOk(envstr))
 		return envstr;
 
 #ifdef _WIN32_WCE

@@ -191,7 +191,7 @@ static       SDL_bool    windownnow  = SDL_FALSE;
 static INT32 windowedModes[MAXWINMODES][2] =
 {
 #if !(defined (_WIN32_WCE) || defined (DC) || defined (PSP) || defined (GP2X))
-	{1920,1200}, // 1.60,6.00
+	{1920,1080}, // 1.60,6.00
 	{1680,1050}, // 1.60,5.25
 	{1600,1200}, // 1.33,5.00
 	{1600,1000}, // 1.60,5.00

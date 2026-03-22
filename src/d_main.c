@@ -1386,7 +1386,7 @@ void D_SRB2Main(void)
 	W_VerifyFileMD5(3, "0de9556477554445ad58dad71397dc7a"); // chars.kart
 	W_VerifyFileMD5(4, "11f06d9676f322ddb8f1a31ab865a1b6"); // misc.kart
 
-	W_VerifyFileMD5(5, "65e8e080254872b9cf6c2dbfa5080e90"); // kart.kart
+	W_VerifyFileMD5(5, "1c29ff4446e131b8c56551d0ddba606d"); // kart.kart
 
 	W_VerifyFileMD5(6, "8f702416c15060cd3c53c71b91116914"); // rings.wpn
 	W_VerifyFileMD5(7, "6b1cf9b41e41a46ac58606dc6e7c9e05"); // drill.dta

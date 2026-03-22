@@ -160,7 +160,7 @@ extern menu_t MainDef, SinglePlayerDef, MultiPlayerDef, SetupMultiPlayerDef;
 extern menu_t OptionsDef, VidModeDef, ControlDef, SoundDef;
 extern menu_t ReadDef2, ReadDef1, SaveDef, LoadDef, ControlDef2, GameOptionDef;
 extern menu_t NetOptionDef, EnemyToggleDef, MonitorToggleDef, SecretsDef, CustomSecretsDef;
-extern menu_t VideoOptionsDef, MouseOptionsDef, ServerOptionsDef;
+extern menu_t VideoOptionsDef, MouseOptionsDef, ServerOptionsDef, RetroDef;
 extern menu_t RewardDef, LevelSelectDef, JoystickDef, TimeAttackDef;
 extern menu_t StatsDef, Stats2Def, Stats3Def, Stats4Def, PlayerDef;
 extern menu_t CoopOptionsDef, RaceOptionsDef, MatchOptionsDef, TagOptionsDef, CTFOptionsDef;
@@ -215,6 +215,8 @@ extern INT16 startmap;
 extern INT32 ultmode;
 
 extern boolean StartSplitScreenGame;
+
+void Moviemode_mode_Onchange(void);
 
 void M_CheatActivationResponder(INT32 ch);
 
